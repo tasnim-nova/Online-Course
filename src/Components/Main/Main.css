@@ -1,0 +1,12 @@
+div{
+    margin: 10px;
+    padding-bottom: 15px;
+}
+.main-component{
+    float: left !important;
+    box-shadow: 5px 10px 20px lightgray;
+    width: 100%;
+}
+p{
+    font-size: large;
+}
