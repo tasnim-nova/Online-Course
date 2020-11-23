@@ -10,7 +10,7 @@ const Main = (props) => {
             <h2> {props.course.id}.Course Title:<strong> Online Course on-{props.course.course_name}</strong></h2>
             <p>Course By : {props.course.university}                         </p> 
             <br/>
-            <h3>Price: {props.course.price}</h3>
+            <h3>Price: ${props.course.price}</h3>
             <small>{props.course.features}</small>
             <br/>
             <br/>
