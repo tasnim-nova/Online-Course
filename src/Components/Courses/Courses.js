@@ -6,7 +6,6 @@ import fakeData from '../../fakeData/MOCK_DATA.json';
 import Cart from '../Cart/Cart';
 
 const Courses = () => {
-    console.log(fakeData);
     const [courses, setCourses] = useState(fakeData);
     const [cart, setCart]= useState([]);
 
@@ -18,7 +17,7 @@ const Courses = () => {
     }
         return (
         <div>
-             <div className=" row">
+             <div className="container row">
                  <div className="course-container col-8">
                  {
                      courses.map(course => <Main 
@@ -28,11 +27,8 @@ const Courses = () => {
                
                  </div>
 
-                 <div className="cart-container col-4 ">
-                 <div className="container">
+                 <div className="cart-container col-3 ">
                  <Cart cart={cart}></Cart>
-                 </div>
-
                  </div>
              </div>
 

@@ -2,6 +2,6 @@
     border-right: 2px solid lightgray;
 }
 .cart-container{
-    display: block;
-    float: right !important;
+    padding: 5px !important;
+    margin: 5px !important;
 }
